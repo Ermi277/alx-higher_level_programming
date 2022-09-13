@@ -8,5 +8,5 @@ def safe_print_division(a, b):
     except:
         res = None
     finally:
-        print("Inside Result {}".format(res)
+        print("Inside Result {}".format(res))
     return (res)
