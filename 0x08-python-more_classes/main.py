@@ -2,5 +2,5 @@
 
 Rectangle = __import__('1-rectangle').Rectangle
 
-my_rectangle = Rectangle(2,-3)
+my_rectangle = Rectangle(2, -3)
 print(my_rectangle.__dict__)
