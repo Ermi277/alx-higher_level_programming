@@ -76,3 +76,7 @@ class Rectangle(Base):
                 print("#", end="")
             print()
 
+    def __str__(self):
+        """returnt rectangle dimension"""
+        return "[Rectangle] {} {}/{} - {}/{}".format(id, self.x, self.y, self.widht, self.height)
+
