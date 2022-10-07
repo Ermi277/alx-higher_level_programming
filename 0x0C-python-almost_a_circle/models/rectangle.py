@@ -16,10 +16,12 @@ class Rectangle(Base):
         super().__init__(id)
 
     @property
+
     def width(self):
-        return self.__width
+        return (self.__width)
 
     @width.setter
+
     def width(self, value):
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
@@ -28,10 +30,12 @@ class Rectangle(Base):
         self.__width = value
 
     @property
+
     def height(self):
-        return self.__height
+        return (self.__height)
 
     @height.setter
+
     def height(self, value):
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
@@ -40,10 +44,12 @@ class Rectangle(Base):
         self.__height = value
 
     @property
+
     def x(self):
-        return self.__x
+        return (self.__x)
     
     @x.setter
+
     def x(self, value):
         if not isinstance(value, int):
             raise TypeError("x must be an integer")
@@ -52,10 +58,12 @@ class Rectangle(Base):
         self.__x = value
 
     @property
+
     def y(self):
-        return self.__y
+        return (self.__y)
 
     @y.setter
+
     def y(self, value):
         if not isinstance(value, int):
             raise TypeError("y must be an integer")
