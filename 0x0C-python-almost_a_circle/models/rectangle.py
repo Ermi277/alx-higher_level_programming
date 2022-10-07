@@ -66,5 +66,6 @@ class Rectangle(Base):
         self.__y = value
 
     def square(self):
+        """Calculate Square or Rectangle"""
         return self.width * self.height
 
