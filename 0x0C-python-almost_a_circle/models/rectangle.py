@@ -65,7 +65,7 @@ class Rectangle(Base):
             raise ValueError("y must be >= 0")
         self.__y = value
 
-    def square(self):
+    def area(self):
         """Calculate Square or Rectangle"""
         return self.width * self.height
 
