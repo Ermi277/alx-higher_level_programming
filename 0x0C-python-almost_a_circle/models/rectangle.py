@@ -83,3 +83,23 @@ class Rectangle(Base):
         """returnt rectangle dimension"""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y, self.width, self.height)
 
+    def update(self, *args):
+        """Update rectangle"""
+        if args and len(args) !=0:
+            v = 0
+            for arg in args:
+                if a == 0:
+                    if arg is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = arg
+                    elif a == 1:
+                        self.width = arg
+                    elif a == 2:
+                        self.height = arg
+                    elif a == 3:
+                        self.x = arg
+                    elif a == 4:
+                        self.y = arg
+                    v += 1
+
