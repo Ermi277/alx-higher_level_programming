@@ -66,5 +66,5 @@ class Rectangle(Base):
         self.__y = value
 
     def square(self):
-        return self.__width * self.__height
+        return (self.__width * self.__height)
 
