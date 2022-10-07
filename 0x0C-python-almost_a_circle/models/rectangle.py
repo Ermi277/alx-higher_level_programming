@@ -69,3 +69,10 @@ class Rectangle(Base):
         """Calculate Square or Rectangle"""
         return self.width * self.height
 
+    def display(self):
+        """Draw rectangle"""
+        for i in range(self.height):
+            for j in range(self.width):
+                print("#", end="")
+            print()
+
